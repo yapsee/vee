@@ -1,7 +1,7 @@
 # Change these
 server '3.90.80.249', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'https://github.com/Vedoc/vedoc_admin_new.git'
+set :repo_url,        'git@github.com:Vedoc/vedoc_admin_new.git'
 set :application,     'vedoc_emailing'
 
 set :rbenv_ruby,      '3.0.1'

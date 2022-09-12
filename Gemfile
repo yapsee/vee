@@ -1,13 +1,16 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.0.1'
+ruby '3.2.0.dev'
 
 gem "devise"
 
 gem 'activeadmin'
 
 gem 'active_admin_theme'
+gem 'nokogiri', '~> 1.13', '>= 1.13.1'
+
+gem "net-smtp", require: false
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.6', '>= 6.1.6.1'
